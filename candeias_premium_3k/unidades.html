@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Clube Candeias Salvador",
+      "telephone": "5571999160747",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Camaçari",
+        "addressRegion": "BA",
+        "addressCountry": "BR"
+      }
+    }
+    </script>
+    <title>Unidades</title>
+    <meta name="description" content="Lista de unidades.">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <div class="top-bar">
+        <div class="container flex-between">
+            <div class="top-info"><i class="fas fa-check-circle"></i> Representante Oficial</div>
+            <div class="top-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="container header-flex">
+            <a href="index.html" class="logo">CLUBE <span>CANDEIAS</span></a>
+            <nav class="nav-desk"><ul class="nav-list"><li class="nav-item"><a href="index.html" class="nav-link ">Início</a></li><li class="nav-item"><a href="unidades.html" class="nav-link active">Unidades</a></li><li class="nav-item"><a href="beneficios.html" class="nav-link ">Benefícios</a></li><li class="nav-item"><a href="faq.html" class="nav-link ">Dúvidas</a></li><li class="nav-item"><a href="contato.html" class="nav-link ">Contato</a></li></ul></nav>
+            <a href="#" class="btn btn-accent wa-trigger">Seja Sócio</a>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <div class="mm-head"><span>Menu</span><i class="fas fa-times close-menu"></i></div>
+        <ul><li class="nav-item"><a href="index.html" class="nav-link ">Início</a></li><li class="nav-item"><a href="unidades.html" class="nav-link active">Unidades</a></li><li class="nav-item"><a href="beneficios.html" class="nav-link ">Benefícios</a></li><li class="nav-item"><a href="faq.html" class="nav-link ">Dúvidas</a></li><li class="nav-item"><a href="contato.html" class="nav-link ">Contato</a></li></ul>
+    </div>
+    <div class="overlay"></div>
+    
+    <div class="page-header"><div class="container"><h1>Nossas Unidades</h1></div></div>
+    <section class="section container">
+        <div class="search-wrapper">
+            <input type="text" id="unitSearch" placeholder="Busque por cidade ou nome...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="grid-3" id="unitsGrid">
+        <div class="unit-card item" data-name="sede camaçari (complexo)" data-city="camaçari" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/piscina-camacari.webp" alt="Sede Camaçari (Complexo)" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Day Use: R$ 55,00</span>
+            </div>
+            <div class="u-body">
+                <small>Camaçari - BA</small>
+                <h3>Sede Camaçari (Complexo)</h3>
+                <div class="u-feats"><span>5 Piscinas</span><span>Toboáguas</span><span>Balde Maluco</span><span>Campo de Futebol</span><span>Restaurante</span><span>Quiosques</span><span>Segurança 24h</span></div>
+                <a href="unidade_sede-camacari.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="acqua pantanal" data-city="corumbá" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/pantanal.webp" alt="Acqua Pantanal" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Lançamento</span>
+            </div>
+            <div class="u-body">
+                <small>Corumbá - MS</small>
+                <h3>Acqua Pantanal</h3>
+                <div class="u-feats"><span>Rio Lento</span><span>Playground</span><span>Ecoturismo</span><span>Pesca</span><span>Restaurante Temático</span></div>
+                <a href="unidade_acqua-pantanal.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="village do sol" data-city="natal" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/natal.webp" alt="Village do Sol" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Alta Procura</span>
+            </div>
+            <div class="u-body">
+                <small>Natal - RN</small>
+                <h3>Village do Sol</h3>
+                <div class="u-feats"><span>Piscina Adulto/Infantil</span><span>Sala de Jogos</span><span>Quadra Poliesportiva</span><span>Restaurante</span><span>Bar Molhado</span></div>
+                <a href="unidade_village-do-sol.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="candeias central" data-city="balneário camboriú" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/balneario.webp" alt="Candeias Central" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Top Destino</span>
+            </div>
+            <div class="u-body">
+                <small>Balneário Camboriú - SC</small>
+                <h3>Candeias Central</h3>
+                <div class="u-feats"><span>Piscina Térmica</span><span>Sala de Jogos</span><span>Academia</span><span>Café da Manhã</span><span>Wi-Fi</span></div>
+                <a href="unidade_central-balneario.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="candeias guarany" data-city="bonito" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/bonito.webp" alt="Candeias Guarany" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Ecoturismo</span>
+            </div>
+            <div class="u-body">
+                <small>Bonito - MS</small>
+                <h3>Candeias Guarany</h3>
+                <div class="u-feats"><span>Piscina</span><span>Área Verde</span><span>Churrasqueira</span><span>Agência de Turismo</span></div>
+                <a href="unidade_guarany-bonito.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="residencial guaratuba" data-city="guaratuba" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/guaratuba.webp" alt="Residencial Guaratuba" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Família</span>
+            </div>
+            <div class="u-body">
+                <small>Guaratuba - PR</small>
+                <h3>Residencial Guaratuba</h3>
+                <div class="u-feats"><span>Cozinha Completa</span><span>Churrasqueiras</span><span>Estacionamento</span><span>Próximo à Praia</span></div>
+                <a href="unidade_residencial-guaratuba.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="candeias foz" data-city="foz do iguaçu" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/foz.webp" alt="Candeias Foz" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Compras</span>
+            </div>
+            <div class="u-body">
+                <small>Foz do Iguaçu - PR</small>
+                <h3>Candeias Foz</h3>
+                <div class="u-feats"><span>Piscina</span><span>Transfer</span><span>Cofre</span><span>Café da Manhã</span><span>Sala de TV</span></div>
+                <a href="unidade_candeias-foz.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="residencial ubatuba" data-city="ubatuba" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/ubatuba.webp" alt="Residencial Ubatuba" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Litoral</span>
+            </div>
+            <div class="u-body">
+                <small>Ubatuba - SP</small>
+                <h3>Residencial Ubatuba</h3>
+                <div class="u-feats"><span>Piscina</span><span>Salão de Jogos</span><span>Varanda</span><span>Estacionamento</span></div>
+                <a href="unidade_residencial-ubatuba.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="edifício ilhas gregas" data-city="balneário camboriú" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/ilhas.webp" alt="Edifício Ilhas Gregas" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Privacidade</span>
+            </div>
+            <div class="u-body">
+                <small>Balneário Camboriú - SC</small>
+                <h3>Edifício Ilhas Gregas</h3>
+                <div class="u-feats"><span>Cozinha</span><span>Sala de Estar</span><span>Ar Condicionado</span><span>Elevador</span></div>
+                <a href="unidade_ilhas-gregas.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        
+        <div class="unit-card item" data-name="complexo turístico bc" data-city="balneário camboriú" data-aos="fade-up">
+            <div class="u-img">
+                <img src="assets/img/complexo.webp" alt="Complexo Turístico BC" onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')">
+                <span class="badge">Completo</span>
+            </div>
+            <div class="u-body">
+                <small>Balneário Camboriú - SC</small>
+                <h3>Complexo Turístico BC</h3>
+                <div class="u-feats"><span>Piscina Semi-Olímpica</span><span>Cinema</span><span>Boliche</span><span>Restaurante</span><span>Quadras</span></div>
+                <a href="unidade_complexo-turistico.html" class="btn btn-block btn-outline wa-trigger">Ver Mais</a>
+            </div>
+        </div>
+        </div>
+        <div id="noResults" style="display:none;text-align:center;margin-top:20px;">Nenhuma unidade encontrada.</div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="col"><h3>Clube Candeias</h3><p>O maior clube de férias do mundo.</p></div>
+                <div class="col"><h4>Links</h4><ul><li><a href="index.html">Início</a></li><li><a href="unidades.html">Unidades</a></li></ul></div>
+                <div class="col"><h4>Contato</h4><ul><li>(71) 99916-0747</li><li>contato@candeias.com</li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 Representante Autorizado.</p></div>
+        </div>
+    </footer>
+    <div class="cookie-banner" id="cookie-banner">
+        <p>Usamos cookies para melhorar sua experiência.</p>
+        <button id="accept-cookies" class="btn btn-sm btn-primary">Aceitar</button>
+    </div>
+    <a href="#" class="wa-float wa-trigger"><i class="fab fa-whatsapp"></i></a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    </body></html>
+    
